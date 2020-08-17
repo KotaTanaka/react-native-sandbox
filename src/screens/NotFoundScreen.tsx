@@ -3,9 +3,9 @@ import { StackScreenProps } from '@react-navigation/stack';
 import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 
 // from app
-import { RootStackParamList } from 'app/interfaces/app';
+import { IRootStackParamList } from 'app/interfaces/app';
 
-const NotFoundScreen: React.FC<StackScreenProps<RootStackParamList, 'NotFound'>> = ({ navigation }) => {
+const NotFoundScreen: React.FC<StackScreenProps<IRootStackParamList, 'NotFound'>> = ({ navigation }) => {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>This screen doesn't exist.</Text>

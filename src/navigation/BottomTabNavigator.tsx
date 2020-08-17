@@ -8,11 +8,11 @@ import Colors from 'app/constants/Colors';
 import useColorScheme from 'app/hooks/useColorScheme';
 import TabOneScreen from 'app/screens/TabOneScreen';
 import TabTwoScreen from 'app/screens/TabTwoScreen';
-import { BottomTabParamList, TabOneParamList, TabTwoParamList } from 'app/interfaces/app';
+import { IBottomTabParamList, ITabOneParamList, ITabTwoParamList } from 'app/interfaces/app';
 
-const BottomTab = createBottomTabNavigator<BottomTabParamList>();
-const TabOneStack = createStackNavigator<TabOneParamList>();
-const TabTwoStack = createStackNavigator<TabTwoParamList>();
+const BottomTab = createBottomTabNavigator<IBottomTabParamList>();
+const TabOneStack = createStackNavigator<ITabOneParamList>();
+const TabTwoStack = createStackNavigator<ITabTwoParamList>();
 
 interface ITabBarIconProps {
   name: string; color: string

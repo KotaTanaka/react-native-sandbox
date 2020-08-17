@@ -5,11 +5,11 @@ import { ColorSchemeName } from 'react-native';
 
 // from app
 import NotFoundScreen from 'app/screens/NotFoundScreen';
-import { RootStackParamList } from 'app/interfaces/app';
+import { IRootStackParamList } from 'app/interfaces/app';
 import BottomTabNavigator from 'app/navigation/BottomTabNavigator';
 import LinkingConfiguration from 'app/navigation/LinkingConfiguration';
 
-const Stack = createStackNavigator<RootStackParamList>();
+const Stack = createStackNavigator<IRootStackParamList>();
 
 const RootNavigator: React.FC = () => {
   return (

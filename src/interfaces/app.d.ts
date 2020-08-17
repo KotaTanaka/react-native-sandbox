@@ -1,17 +1,17 @@
-export type RootStackParamList = {
+export type IRootStackParamList = {
   Root: undefined;
   NotFound: undefined;
 };
 
-export type BottomTabParamList = {
+export type IBottomTabParamList = {
   TabOne: undefined;
   TabTwo: undefined;
 };
 
-export type TabOneParamList = {
+export type ITabOneParamList = {
   TabOneScreen: undefined;
 };
 
-export type TabTwoParamList = {
+export type ITabTwoParamList = {
   TabTwoScreen: undefined;
 };
