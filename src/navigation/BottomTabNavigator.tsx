@@ -3,11 +3,12 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { createStackNavigator } from '@react-navigation/stack';
 import * as React from 'react';
 
-import Colors from '../constants/Colors';
-import useColorScheme from '../hooks/useColorScheme';
-import TabOneScreen from '../screens/TabOneScreen';
-import TabTwoScreen from '../screens/TabTwoScreen';
-import { BottomTabParamList, TabOneParamList, TabTwoParamList } from '../types';
+// from app
+import Colors from 'app/constants/Colors';
+import useColorScheme from 'app/hooks/useColorScheme';
+import TabOneScreen from 'app/screens/TabOneScreen';
+import TabTwoScreen from 'app/screens/TabTwoScreen';
+import { BottomTabParamList, TabOneParamList, TabTwoParamList } from 'app/types';
 
 const BottomTab = createBottomTabNavigator<BottomTabParamList>();
 
