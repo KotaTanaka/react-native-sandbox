@@ -4,8 +4,8 @@ import { StyleSheet, TouchableOpacity } from 'react-native';
 
 // from app
 import Colors from 'app/constants/Colors';
-import { MonoText } from 'app/components/StyledText';
-import { Text, View } from 'app/components/Themed';
+import Text, { MonoText } from 'app/components/themed/Text';
+import View from 'app/components/themed/View';
 
 interface IEditScreenInfoProps {
   path: string;

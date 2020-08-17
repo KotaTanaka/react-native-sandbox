@@ -3,7 +3,8 @@ import { StyleSheet } from 'react-native';
 
 // from app
 import EditScreenInfo from 'app/components/EditScreenInfo';
-import { Text, View } from 'app/components/Themed';
+import Text from 'app/components/themed/Text';
+import View from 'app/components/themed/View';
 
 const TabOneScreen: React.FC = () => {
   return (
