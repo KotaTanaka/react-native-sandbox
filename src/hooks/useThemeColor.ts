@@ -11,9 +11,9 @@ export const useThemeColor = (
 
   if (colorFromProps) {
     return colorFromProps;
-  } else {
-    return Colors[theme][colorName];
   }
+
+  return Colors[theme][colorName];
 };
 
 export default useThemeColor;
