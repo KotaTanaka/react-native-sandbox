@@ -8,10 +8,10 @@ import { createStackNavigator } from '@react-navigation/stack';
 import { ColorSchemeName } from 'react-native';
 
 // from app
+import BottomTabNavigator from 'app/navigation/navigators/BottomTabNavigator';
+import LinkingConfiguration from 'app/navigation/LinkingConfiguration';
 import NotFoundScreen from 'app/screens/NotFoundScreen';
 import { TRootStackParamList } from 'app/types/navigation';
-import BottomTabNavigator from 'app/navigation/BottomTabNavigator';
-import LinkingConfiguration from 'app/navigation/LinkingConfiguration';
 
 const Stack = createStackNavigator<TRootStackParamList>();
 
