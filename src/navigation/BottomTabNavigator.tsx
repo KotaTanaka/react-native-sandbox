@@ -1,5 +1,4 @@
 import React from 'react';
-import { Ionicons } from '@expo/vector-icons';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { createStackNavigator } from '@react-navigation/stack';
 
@@ -8,6 +7,7 @@ import Colors from 'app/constants/Colors';
 import useColorScheme from 'app/hooks/useColorScheme';
 import TabOneScreen from 'app/screens/TabOneScreen';
 import TabTwoScreen from 'app/screens/TabTwoScreen';
+import TabBarIcon from 'app/components/TabBarIcon';
 import {
   TBottomTabParamList,
   TTabOneParamList,
@@ -17,15 +17,6 @@ import {
 const BottomTab = createBottomTabNavigator<TBottomTabParamList>();
 const TabOneStack = createStackNavigator<TTabOneParamList>();
 const TabTwoStack = createStackNavigator<TTabTwoParamList>();
-
-interface ITabBarIconProps {
-  name: string;
-  color: string;
-}
-
-const TabBarIcon: React.FC<ITabBarIconProps> = (props) => {
-  return <Ionicons size={30} style={{ marginBottom: -3 }} {...props} />;
-};
 
 const TabOneNavigator: React.FC = () => {
   return (
