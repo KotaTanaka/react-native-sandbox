@@ -3,7 +3,7 @@ import * as React from 'react';
 import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 
 // from app
-import { RootStackParamList } from 'app/types';
+import { RootStackParamList } from 'app/interfaces/app';
 
 export default function NotFoundScreen({
   navigation,
