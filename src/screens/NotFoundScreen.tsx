@@ -3,10 +3,10 @@ import { StackScreenProps } from '@react-navigation/stack';
 import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 
 // from app
-import { IRootStackParamList } from 'app/interfaces/app';
+import { TRootStackParamList } from 'app/types/navigation';
 
 const NotFoundScreen: React.FC<StackScreenProps<
-  IRootStackParamList,
+  TRootStackParamList,
   'NotFound'
 >> = ({ navigation }) => {
   return (

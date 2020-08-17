@@ -9,14 +9,14 @@ import useColorScheme from 'app/hooks/useColorScheme';
 import TabOneScreen from 'app/screens/TabOneScreen';
 import TabTwoScreen from 'app/screens/TabTwoScreen';
 import {
-  IBottomTabParamList,
-  ITabOneParamList,
-  ITabTwoParamList,
-} from 'app/interfaces/app';
+  TBottomTabParamList,
+  TTabOneParamList,
+  TTabTwoParamList,
+} from 'app/types/navigation';
 
-const BottomTab = createBottomTabNavigator<IBottomTabParamList>();
-const TabOneStack = createStackNavigator<ITabOneParamList>();
-const TabTwoStack = createStackNavigator<ITabTwoParamList>();
+const BottomTab = createBottomTabNavigator<TBottomTabParamList>();
+const TabOneStack = createStackNavigator<TTabOneParamList>();
+const TabTwoStack = createStackNavigator<TTabTwoParamList>();
 
 interface ITabBarIconProps {
   name: string;
