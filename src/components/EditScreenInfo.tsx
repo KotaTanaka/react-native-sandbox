@@ -1,5 +1,5 @@
-import * as WebBrowser from 'expo-web-browser';
 import React from 'react';
+import * as WebBrowser from 'expo-web-browser';
 import { StyleSheet, TouchableOpacity } from 'react-native';
 
 // from app
@@ -7,7 +7,11 @@ import Colors from 'app/constants/Colors';
 import { MonoText } from 'app/components/StyledText';
 import { Text, View } from 'app/components/Themed';
 
-export default function EditScreenInfo({ path }: { path: string }) {
+interface IEditScreenInfoProps {
+  path: string
+}
+
+const EditScreenInfo: React.FC<IEditScreenInfoProps> = ({ path }) => {
   return (
     <View>
       <View style={styles.getStartedContainer}>
@@ -44,7 +48,9 @@ export default function EditScreenInfo({ path }: { path: string }) {
   );
 }
 
-function handleHelpPress() {
+export default EditScreenInfo;
+
+const handleHelpPress = (): void => {
   WebBrowser.openBrowserAsync(
     'https://docs.expo.io/get-started/create-a-new-app/#opening-the-app-on-your-phonetablet'
   );

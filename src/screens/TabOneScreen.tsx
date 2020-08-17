@@ -1,11 +1,11 @@
-import * as React from 'react';
+import React from 'react';
 import { StyleSheet } from 'react-native';
 
 // from app
 import EditScreenInfo from 'app/components/EditScreenInfo';
 import { Text, View } from 'app/components/Themed';
 
-export default function TabOneScreen() {
+const TabOneScreen: React.FC = () => {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Tab One</Text>
@@ -14,6 +14,8 @@ export default function TabOneScreen() {
     </View>
   );
 }
+
+export default TabOneScreen;
 
 const styles = StyleSheet.create({
   container: {
