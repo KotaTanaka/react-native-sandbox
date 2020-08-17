@@ -21,12 +21,12 @@ const useCachedResources = (): boolean => {
         setLoadingComplete(true);
         SplashScreen.hideAsync();
       }
-    }
+    };
 
     loadResourcesAndDataAsync();
   }, []);
 
   return isLoadingComplete;
-}
+};
 
 export default useCachedResources;

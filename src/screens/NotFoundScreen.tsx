@@ -5,16 +5,22 @@ import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 // from app
 import { IRootStackParamList } from 'app/interfaces/app';
 
-const NotFoundScreen: React.FC<StackScreenProps<IRootStackParamList, 'NotFound'>> = ({ navigation }) => {
+const NotFoundScreen: React.FC<StackScreenProps<
+  IRootStackParamList,
+  'NotFound'
+>> = ({ navigation }) => {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>This screen doesn't exist.</Text>
-      <TouchableOpacity onPress={() => navigation.replace('Root')} style={styles.link}>
+      <TouchableOpacity
+        onPress={() => navigation.replace('Root')}
+        style={styles.link}
+      >
         <Text style={styles.linkText}>Go to home screen!</Text>
       </TouchableOpacity>
     </View>
   );
-}
+};
 
 export default NotFoundScreen;
 

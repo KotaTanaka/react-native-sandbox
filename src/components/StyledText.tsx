@@ -4,5 +4,7 @@ import React from 'react';
 import { Text, TextProps } from 'app/components/Themed';
 
 export const MonoText: React.FC<TextProps> = (props: TextProps) => {
-  return <Text {...props} style={[props.style, { fontFamily: 'space-mono' }]} />;
-}
+  return (
+    <Text {...props} style={[props.style, { fontFamily: 'space-mono' }]} />
+  );
+};

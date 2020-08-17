@@ -21,6 +21,6 @@ const App: React.FC = () => {
       </SafeAreaProvider>
     );
   }
-}
+};
 
 export default App;
