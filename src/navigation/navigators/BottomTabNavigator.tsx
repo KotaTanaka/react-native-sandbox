@@ -4,7 +4,7 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 // from app
 import Colors from 'app/constants/Colors';
 import TabOneNavigator from 'app/navigation/navigators/TabOneNavigator';
-import TabTwoNavigator from 'app/navigation/navigators/TabOneNavigator';
+import TabTwoNavigator from 'app/navigation/navigators/TabTwoNavigator';
 import useColorScheme from 'app/hooks/useColorScheme';
 import TabBarIcon from 'app/components/TabBarIcon';
 import { BottomTabParamList } from 'app/types/navigation';
