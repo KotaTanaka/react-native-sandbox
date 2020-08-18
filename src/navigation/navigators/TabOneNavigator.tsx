@@ -3,9 +3,9 @@ import { createStackNavigator } from '@react-navigation/stack';
 
 // from app
 import TabOneScreen from 'app/screens/TabOneScreen';
-import { TTabOneParamList } from 'app/types/navigation';
+import { TabOneParamList } from 'app/types/navigation';
 
-const TabOneStack = createStackNavigator<TTabOneParamList>();
+const TabOneStack = createStackNavigator<TabOneParamList>();
 
 const TabOneNavigator: React.FC = () => {
   return (

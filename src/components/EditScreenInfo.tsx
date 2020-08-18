@@ -1,17 +1,17 @@
 import React from 'react';
-import * as WebBrowser from 'expo-web-browser';
 import { StyleSheet, TouchableOpacity } from 'react-native';
+import * as WebBrowser from 'expo-web-browser';
 
 // from app
 import Colors from 'app/constants/Colors';
 import Text, { MonoText } from 'app/components/themed/Text';
 import View from 'app/components/themed/View';
 
-interface IEditScreenInfoProps {
+type EditScreenInfoProps = {
   path: string;
-}
+};
 
-const EditScreenInfo: React.FC<IEditScreenInfoProps> = ({ path }) => {
+const EditScreenInfo: React.FC<EditScreenInfoProps> = ({ path }) => {
   return (
     <View>
       <View style={styles.getStartedContainer}>

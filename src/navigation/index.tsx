@@ -11,9 +11,9 @@ import { ColorSchemeName } from 'react-native';
 import BottomTabNavigator from 'app/navigation/navigators/BottomTabNavigator';
 import LinkingConfiguration from 'app/navigation/LinkingConfiguration';
 import NotFoundScreen from 'app/screens/NotFoundScreen';
-import { TRootStackParamList } from 'app/types/navigation';
+import { RootStackParamList } from 'app/types/navigation';
 
-const Stack = createStackNavigator<TRootStackParamList>();
+const Stack = createStackNavigator<RootStackParamList>();
 
 const RootNavigator: React.FC = () => {
   return (

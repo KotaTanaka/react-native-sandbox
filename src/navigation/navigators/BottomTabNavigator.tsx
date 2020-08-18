@@ -7,9 +7,9 @@ import TabOneNavigator from 'app/navigation/navigators/TabOneNavigator';
 import TabTwoNavigator from 'app/navigation/navigators/TabOneNavigator';
 import useColorScheme from 'app/hooks/useColorScheme';
 import TabBarIcon from 'app/components/TabBarIcon';
-import { TBottomTabParamList } from 'app/types/navigation';
+import { BottomTabParamList } from 'app/types/navigation';
 
-const BottomTab = createBottomTabNavigator<TBottomTabParamList>();
+const BottomTab = createBottomTabNavigator<BottomTabParamList>();
 
 const BottomTabNavigator: React.FC = () => {
   const colorScheme = useColorScheme();
