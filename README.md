@@ -20,6 +20,10 @@ React Native (Expo) でのクロスプラットフォーム開発の実験場
 #### Install
 
 ```bash
+$ npm i -g expo-cli
+```
+
+```bash
 $ yarn
 ```
 
