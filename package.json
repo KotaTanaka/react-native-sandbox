@@ -1,4 +1,8 @@
 {
+  "name": "react-native-sandbox",
+  "version": "0.0.1",
+  "author": "KotaTanaka",
+  "private": true,
   "main": "main.ts",
   "scripts": {
     "start": "expo start",
@@ -49,6 +53,5 @@
     "jest-expo": "~38.0.0",
     "prettier": "^2.0.5",
     "typescript": "~3.9.5"
-  },
-  "private": true
+  }
 }

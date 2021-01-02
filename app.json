@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "find-wifi-native-app",
-    "slug": "find-wifi-native-app",
-    "version": "1.0.0",
+    "name": "react-native-sandbox",
+    "slug": "react-native-sandbox",
+    "version": "0.0.1",
     "orientation": "portrait",
     "icon": "./src/assets/images/icon.png",
     "scheme": "myapp",
