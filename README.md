@@ -1,7 +1,8 @@
-***find-wifi-native-app***
+***react-native-sandbox***
 
-*[Backend - find-wifi-backend](https://github.com/KotaTanaka/find-wifi-backend)*
-*[Contents Manager - find-wifi-admin-ui](https://github.com/KotaTanaka/find-wifi-admin-ui)*
+## About
+
+React Native (Expo) でのクロスプラットフォーム開発の実験場
 
 ## Technology
 
@@ -19,8 +20,6 @@
 #### Install
 
 ```bash
-$ git clone git@github.com:KotaTanaka/find-wifi-native-app.git
-$ cd find-wifi-native-app
 $ yarn
 ```
 
