@@ -2,7 +2,7 @@
 
 ## About
 
-React Native (Expo) でのクロスプラットフォーム開発の実験場
+React Native (Expo) でのクロスプラットフォーム開発の素振り
 
 ## Technology
 
